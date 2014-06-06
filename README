@@ -1,0 +1,17 @@
+Jellyfish sync. is a free digital implementation of sync. feature from Plankton
+Electronics Jellyfish v2 (http://www.planktonelectronics.com/thejellyfish/).
+
+
+Compilation and upload
+======================
+$ ./configure --host=avr
+prepares code to be compiled on your system.
+
+$ make
+compiles everything.
+
+$ make upload
+uploads program to an AVR MCU using 'avrdude'.
+
+$ ./configure --help
+lists available compile time options.
